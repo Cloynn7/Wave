@@ -1,0 +1,61 @@
+{
+  "name": "Wave",
+  "description": "Lavamusic a powerful music Discord bot that need in your server",
+  "repository": "https://github.com/brblacky/lavamusic",
+  "logo": "https://media.discordapp.net/attachments/876035356460462090/888434725235097610/20210820_124325.png",
+  "keywords": ["discord", "discordjs", "music"],
+  "env": {    
+    "MONGO_URI": {
+     "description": "Your Mongo url",
+     "value": "mongodb+srv://BobeeBeatz:BobeeBeatz@cluster0.cpxmnlm.mongodb.net/?retryWrites=true&w=majority",
+     "required": true
+    },
+    "NODE_HOST":{
+      "description":"lavalink host",
+      "value": "lava1.cruzstudio.tech",
+      "required": true
+    },
+    "NODE_ID":{
+      "description":"lavalink ID",
+      "value": "main",
+      "required": true
+    },
+    "NODE_PORT":{
+      "description":"lavalink port",
+      "value": "80",
+      "required": true
+    },
+    "NODE_PASSWORD":{
+      "description":"lavalink password",
+      "value": "cruzstudio.tech",
+      "required": true
+    },
+    "NODE_SECURE":{
+      "description":"lavalink secure (true/false)",
+      "value": "false",
+      "required": true
+    },
+    "PREFIX":{
+      "description": "your prefix",
+      "value": "-",
+      "required": true
+     },
+    "COlOR":{
+      "description": "embed colour code hex",
+      "value": "#303236",
+      "required": false
+     },
+    "LOGS":{
+      "description": "Channel I'd",
+      "required": true
+     },
+    "OWNERID":{
+      "description": "your discord id",
+      "required": false
+     },
+    "TOKEN": {
+      "description": "Your bot's bot token.",
+      "required": true
+    }
+  }
+}
